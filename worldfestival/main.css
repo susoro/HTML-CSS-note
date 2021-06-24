@@ -1,0 +1,27 @@
+@charset "utf-8";
+
+*{margin:0; padding:0;}
+ol,ul{list-style:none;}
+table{border-collapse:collapse;}
+a:link, a:visited, a:hover , a:active , a:focus{text-decoration:none; color: #000;}
+body{
+  font-family:'Noto Sans KR',sans-serif;
+  font-size:16px;
+  line-height: 26px;
+  color: #000;
+}
+.wrap{min-width: 1200px; overflow-x: hidden;}
+header{width:1200px; height:120px; margin: 0 auto; position: relative;}
+header h1{position:absolute; left:0; top:40px;}
+header .festival-lang{position:absolute; right:0; top:40px;}
+header .festival-lang li{float: left; padding-left: 20px;}
+header .festival-lang li a{ color: #000; font-size:14px; font-weight:bold;}
+
+
+
+header .festival-navi{position:absolute; right:0; top:60px;}
+header .festival-navi>li{float:left;}
+header .festival-navi>li>a{font-size: 20px;
+font-weight: bold; display: block; padding: 10px 50px 24px;}
+header .festival-navi>li:hover>a{color:rgb(0, 0, 0,0.7)}
+header .festival-navi>li:
